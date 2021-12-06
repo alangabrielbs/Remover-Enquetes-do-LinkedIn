@@ -11,7 +11,7 @@
       const title = poll.offsetParent.querySelector(
         ".feed-shared-poll__header .feed-shared-inline-show-more-text.m0"
       ).innerText;
-      console.log(`Removendo a enquente: ${title}`);
+      console.log(`Removendo a enquete: ${title}`);
       poll.offsetParent.remove();
     });
   };
